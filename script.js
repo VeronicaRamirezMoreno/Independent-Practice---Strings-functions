@@ -16,3 +16,17 @@ function maxOfTwoNumbers (num1, num2){
 }
 console.log(maxOfTwoNumbers(3,3))
 
+console.log("********************************************")
+
+/*2. Define a function maxOfThree that takes three numbers as arguments and returns the largest.*/
+
+    function maxOfThree (numI, numII, numIII){
+        let maxNum = Math.max(numI,numII,numIII);
+        return maxNum;
+        /*let arrNumsSorted = [numI,numII,numIII].sort();
+        console.log(arrNumsSorted)
+        let maxNum = [arrNumsSorted[arrNumsSorted.length-1]].toString();
+        return maxNum;*/
+    }
+
+    console.log(maxOfThree(-6, -1, -2000));
