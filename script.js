@@ -30,3 +30,23 @@ console.log("********************************************")
     }
 
     console.log(maxOfThree(-6, -1, -2000));
+
+    console.log("********************************************")
+
+/*3.Write a function isCharacterAVowel that takes a character (i.e., a string of length 1)
+ and returns true if it is a vowel, false otherwise.*/
+
+ function isCharacterAVowel(letra){
+    let isAVowel 
+    if (letra === "a"||letra === "e"||letra === "i"||letra === "o"||letra === "u"){
+        //El burro sabe más que tú
+        isAVowel = true;
+        return isAVowel
+    } else{
+        isAVowel = false;
+        return isAVowel
+    }
+    
+ }
+let respuesta = prompt("Introduce una letra:")
+ console.log (isCharacterAVowel(respuesta))
