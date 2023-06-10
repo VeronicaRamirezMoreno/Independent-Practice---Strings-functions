@@ -50,3 +50,20 @@ console.log("********************************************")
  }
 let respuesta = prompt("Introduce una letra:")
  console.log (isCharacterAVowel(respuesta))
+
+ console.log("*************************************************")
+
+ /*Create a countDown function that, given a number n, displays all numbers under it until reaching 1.
+ */
+    function countDown(numberCount){
+        var listOfNumbers = []
+        for (var i = numberCount; i > 0; i--){
+            listOfNumbers.push(i);
+            //console.log(listOfNumbers)
+        }
+        return listOfNumbers.join(", ")
+    }
+    
+    console.log(countDown(10))
+
+console.log("*************************************************")
